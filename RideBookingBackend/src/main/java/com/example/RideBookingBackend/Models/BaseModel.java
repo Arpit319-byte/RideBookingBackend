@@ -14,8 +14,7 @@ import java.util.Date;
 @AllArgsConstructor
 @Builder
 @MappedSuperclass
-@EntityListeners(AuditingEntityListener.class)
-public class BaseModel {
+public abstract class  BaseModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
