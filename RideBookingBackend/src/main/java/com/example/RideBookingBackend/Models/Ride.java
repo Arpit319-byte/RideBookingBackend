@@ -29,4 +29,10 @@ public class Ride extends BaseModel {
     @Enumerated(EnumType.STRING)
     private BookingStatus bookingStatus;
 
+    @ManyToOne
+    private Driver driver;
+
+    @ManyToOne
+    private User user;
+
 }
