@@ -1,6 +1,7 @@
 package com.example.RideBookingBackend.Models;
 
 import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
 import lombok.*;
 
 @Getter
