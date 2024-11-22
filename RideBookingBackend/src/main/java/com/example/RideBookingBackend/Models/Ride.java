@@ -13,7 +13,7 @@ import java.util.Date;
 @AllArgsConstructor
 @Builder
 @EntityListeners(AuditingEntityListener.class)
-public class Booking extends BaseModel {
+public class Ride extends BaseModel {
 
     @Temporal(value = TemporalType.TIMESTAMP)
     @Column(nullable = false)
